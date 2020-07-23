@@ -1,0 +1,42 @@
+{
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.preferredDarkColorTheme": "Visual Studio Light",
+  "workbench.preferredHighContrastColorTheme": "Visual Studio Light",
+  "workbench.preferredLightColorTheme": "Visual Studio Light",
+  "editor.formatOnSave": false,
+  // color-highlight
+  "color-highlight.markerType": "outline",
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // VSCode允许注释的操作方式：https://stackoverflow.com/questions/47834825/in-vs-code-disable-error-comments-are-not-permitted-in-json
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true,
+      "comments": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
